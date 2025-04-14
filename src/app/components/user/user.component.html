@@ -1,6 +1,7 @@
 <div>
-  <button (click)="userbuttonclicked()">
-    <img [src]="userimagepath" alt="{{ userdata.name }}" />
-    <span>{{ userdata.name }}</span>
+  <!-- <button (click)="userbuttonclicked()"> -->
+  <button>
+    <img [src]="userimagepath" alt="{{ name() }}" />
+    <span>{{ name() }}</span>
   </button>
 </div>

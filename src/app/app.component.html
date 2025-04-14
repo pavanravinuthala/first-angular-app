@@ -1,8 +1,10 @@
 <app-header />
 <main>
   <ul id="users">
+    @for (item of users(); track item.id) {
     <li>
-      <app-user />
+      <app-user [userimage]="item.avatar" [name]="item.name" [id]="item.id" />
     </li>
+    }
   </ul>
 </main>
