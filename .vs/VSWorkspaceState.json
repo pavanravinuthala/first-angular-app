@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components\\tasks",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\C:\\Users\\Pavanr\\Source\\Repos\\first-angular-app",
   "PreviewInSolutionExplorer": false
 }
