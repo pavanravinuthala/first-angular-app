@@ -3,12 +3,8 @@
   <ul id="users">
     @for (item of users(); track item.id) {
     <li>
-      <!-- <app-user [userimage]="item().avatar" [name]="item().name" [id]="item.id" (usercomponentselect)="appcomponentclicked($event)" /> -->
-      <app-user [user]="item" (usercomponentselect)="appcomponentclicked($event)" />
+      <app-user [userimage]="item.avatar" [name]="item.name" [id]="item.id" />
     </li>
     }
   </ul>
-  @if(clickeduser){
-  <app-tasks [selectedname]="clickeduser"/>
-  }@else{<p id="fallback">Please select a user</p>}
 </main>
