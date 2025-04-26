@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UserComponent } from './components/user/user.component';
+import { TasksComponent } from './components/tasks/tasks.component';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { UserComponent } from './components/user/user.component';
     HeaderComponent,
     FooterComponent,
     UserComponent,
+    TasksComponent
   ],
   providers: [],
   bootstrap: [AppComponent],
